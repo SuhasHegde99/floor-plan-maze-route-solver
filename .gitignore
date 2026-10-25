@@ -1,0 +1,34 @@
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local IDE and editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary test outputs
+examples/*_export.png
+test_solved_export.png
+*.tmp
+*.log
+
+# Sensitive environment and credentials (safety guard)
+.env
+.env.*
+secrets.*
+credentials.json
